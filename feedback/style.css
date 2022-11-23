@@ -1,0 +1,95 @@
+body
+ { 
+ background:url(img1.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:750px;
+}
+
+p
+{
+ 
+color:powderblue;
+font-size:25px;
+
+} 
+
+
+.box
+{
+width:450px;
+border-style:solid;
+border-width:6px;
+background-color:rgba(0,0,0,0.5);
+box-shadow:0px 0px 10px 7px #dfdfdf;
+top:30px;
+left:450px;
+position:absolute;
+padding:30px 20px;
+
+}
+ .box h1
+{
+ text-align:center;
+ font-family:serif;
+ font-size:40px;
+ 
+ 
+}
+
+ .box button[type="submit"]
+  {
+   border:none;
+   width:120px;
+   height:30px;
+   background:orange;
+   color:black;
+   font-size:20px;
+   font-family:serif;
+   border-radius:7px;
+
+ }
+
+.box select
+ {
+   border:none;
+   height:30px;
+   border-radius:10px;
+   background-color:skyblue;
+   font-size:15px;
+   font-family:serif;
+ }
+
+.box input[type="text"], input[type="number"], input[type="Email"]
+  {
+
+    width:100%;
+    margin-bottom:-10px;
+    border:none;
+    outline:none;
+    border-bottom:2px solid white;
+    background:transparent;
+    height:25px;
+    font-size:16px;
+   
+}
+
+.box textarea[class="Review"]
+{ 
+    width:100%;
+    margin-bottom:-10px;
+    border:none;
+    outline:none;
+    border-bottom:2px solid white;
+    background:transparent;
+    height:30px;
+    font-size:18px;
+}
+
+ .box button[type="submit"]:hover
+{
+    cursor:pointer;
+    background:green;
+
+}
+
